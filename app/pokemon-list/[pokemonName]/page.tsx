@@ -22,8 +22,6 @@ const PokemonDetail: FC<Props> = async ({ params }) => {
               className="basis-1"
               src={pokemonData.sprites.other['official-artwork'].front_shiny}
               alt={pokemonData?.name}
-              width={400}
-              height={400}
               priority={true}
             />
           </Inset>
